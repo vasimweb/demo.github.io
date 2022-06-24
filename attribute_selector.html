@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<style>
+img[height] {
+  border : 1px solid red;
+}
+img[alt='life of forest'] {
+  border: 3px solid red;
+}
+img[alt^='view'] {
+  border: 3px solid blue;
+}
+img[alt$='nature'] {
+  border: 3px solid green;
+}
+img[alt|='life'] {
+  border: 3px dotted green;
+}
+</style>
+</head>
+<body>
+<P style="color:blue" > this is attribute selector </P>
+<img src="download.jpg" alt="life of forest">
+<img src="nature.jpg" alt="view of nature" height="300px">
+<img src="download.jpg" alt="life- of forest">
+</body>
+</html>
+
